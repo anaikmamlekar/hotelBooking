@@ -1,0 +1,8 @@
+steps to perform in terminal
+1. export api key:
+ $env:NVIDIA_API_KEY="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"
+2. conda init powershell
+3. conda create -n data_analysis python=3.10
+4. conda activate data_analysis 
+5. pip install -r requirements.txt
+6. streamlit run data_analysis_agent.py
